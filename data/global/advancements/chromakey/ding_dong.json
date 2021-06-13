@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Better Phantoms",
+        "description": "Reworks phantoms and adds the ability to craft Elytra",
+        "icon": {
+            "item": "minecraft:firework_rocket",
+            "nbt": "{CustomModelData:1320000}"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:chromakey/root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
