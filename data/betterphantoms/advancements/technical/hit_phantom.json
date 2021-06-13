@@ -12,6 +12,6 @@
       }
     },
     "rewards": {
-      "function": "betterphantoms:phantom/invisible"
+      "function": "betterphantoms:phantom/hit_by_projectile"
     }
   }
