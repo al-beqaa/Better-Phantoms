@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "nightmare_rocket_hit": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "damage": {
+            "type": {
+              "direct_entity": {
+                "type": "minecraft:firework_rocket",
+                "nbt": "{FireworksItem:{tag:{betterphantoms:{id:\"nightmare_rocket\"}}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "betterphantoms:nightmare_rocket/hit"
+    }
+}

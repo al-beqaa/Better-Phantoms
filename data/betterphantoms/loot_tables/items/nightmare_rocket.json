@@ -16,7 +16,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:1320000,Fireworks:{Flight:40}}"
+                "tag": "{betterphantoms:{id:\"nightmare_rocket\"},CustomModelData:1320000,Fireworks:{Flight:25}}"
               }
             ]
           }
