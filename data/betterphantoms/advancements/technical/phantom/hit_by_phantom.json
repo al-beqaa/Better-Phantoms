@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "hit_phantom": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+            "damage": {
+                "source_entity": {
+                    "type": "minecraft:phantom"
+                }
+            },
+            "player": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                }
+            ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "betterphantoms:phantom/hit_player"
+    }
+  }
