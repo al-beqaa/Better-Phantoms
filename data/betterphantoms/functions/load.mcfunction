@@ -1,2 +1,1 @@
 gamerule doInsomnia false
-function betterphantoms:second_clock
