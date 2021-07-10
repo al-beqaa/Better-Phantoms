@@ -9,7 +9,7 @@
         "announce_to_chat": false,
         "show_toast": false
     },
-    "parent": "global:chromakey/root",
+    "parent": "global:chromakey",
     "criteria": {
         "trigger": {
             "trigger": "minecraft:tick"
