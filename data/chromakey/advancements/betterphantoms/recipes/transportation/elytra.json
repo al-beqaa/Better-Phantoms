@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "betterphantoms:elytra"
+            "chromakey:betterphantoms/elytra"
         ]
     },
     "criteria": {
@@ -21,7 +21,7 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "betterphantoms:elytra"
+                "recipe": "chromakey:betterphantoms/elytra"
             }
         }
     },

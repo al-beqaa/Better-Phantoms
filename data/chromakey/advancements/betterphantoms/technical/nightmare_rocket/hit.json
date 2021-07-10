@@ -7,7 +7,7 @@
             "type": {
               "direct_entity": {
                 "type": "minecraft:firework_rocket",
-                "nbt": "{FireworksItem:{tag:{betterphantoms:{id:\"nightmare_rocket\"}}}}"
+                "nbt": "{FireworksItem:{tag:{chromakey:{betterphantoms:{id:\"nightmare_rocket\"}}}}}"
               }
             }
           }
@@ -15,6 +15,6 @@
       }
     },
     "rewards": {
-      "function": "betterphantoms:nightmare_rocket/hit"
+      "function": "chromakey:betterphantoms/nightmare_rocket/hit"
     }
 }
