@@ -1,0 +1,26 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:firework_rocket",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.betterphantoms.nightmare_rocket",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{chromakey:{betterphantoms:{id:\"nightmare_rocket\"}},CustomModelData:1320000,Fireworks:{Flight:25}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

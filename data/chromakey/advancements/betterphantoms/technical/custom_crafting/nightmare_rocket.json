@@ -1,0 +1,14 @@
+{
+    "rewards": {
+      "function": "chromakey:betterphantoms/custom_crafting/crafted",
+      "loot": ["chromakey:betterphantoms/items/nightmare_rocket"]
+    },
+    "criteria": {
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "chromakey:betterphantoms/nightmare_rocket"
+        }
+      }
+    }
+}

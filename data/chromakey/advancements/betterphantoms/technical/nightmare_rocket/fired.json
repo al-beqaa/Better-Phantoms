@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "fired_nightmare_rocket": {
+        "trigger": "minecraft:shot_crossbow",
+        "conditions": {
+          "item": {
+            "nbt": "{ChargedProjectiles:[{tag:{chromakey:{betterphantoms:{id:\"nightmare_rocket\"}}}}]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "chromakey:betterphantoms/nightmare_rocket/fired"
+    }
+}
