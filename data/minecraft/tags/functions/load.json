@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "betterphantoms:load"
+        "chromakey:betterphantoms/load",
+        "chromakey:betterphantoms/tick"
     ]
 }
